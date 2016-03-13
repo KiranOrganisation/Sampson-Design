@@ -1,8 +1,31 @@
 body{
     background-color: #fff;
 }
+.navbar-default{
+    background-color: #263238;
+    border-color: #263238;
+   }
+   .navbar-inverse{
+    background-color: #263238;
+    
+   }
+  .navbar-brand{
+    margin-bottom: 20px;
 
-.wrapper{
+  }
+  .navbar-brand>h3{
+    color: #fff;
+  }
+  .navbar-responsive-collapse>ul{
+    margin-top: 20px;
+  }
+  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+  }
+  .navbar-header>button{
+    margin-top: 30px;
+  }
+/*.wrapper{
   background-color: #fff;
 }
 
@@ -20,11 +43,11 @@ body{
 }
 
 .first_content{
-  background-color: #00a98e;
+  background-color: #263238;
   color: #fff;
-  margin-top: 50px;
+ /* margin-top: 50px;*/
   border-bottom: #fff 1px solid;
-}
+}*/
 
 .logo>h3{
   color: #fff;
@@ -45,6 +68,7 @@ body{
 .second_content{
   background-color: #00a98e;
   padding: 30px 0px;
+  margin-top: 84px;
 
 }
 
@@ -60,6 +84,35 @@ body{
   margin-left: -20px;
 }
 
+@media(min-width:768px) {
+    .carousel-control{
+        line-height: 400px;
+    }}
+
+    @media(max-width:768px) and (min-width: 400px) {
+      .carousel-control{
+        line-height: 200px;
+      }
+    .carousel-control .material-icons{
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 5px;
+}}
+
+@media(max-width: 400px) and (min-width: 190px) {
+      .carousel-control{
+        line-height: 120px;
+      }
+    .carousel-control .material-icons{
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 5px;
+}
+  }
 .buy{
   border-radius: 0px;
   border-top: #fff 1px solid;
@@ -120,9 +173,53 @@ td{
 }
 .col-lg-4 a:hover th{
   background-color: #eae9e9;
+
 }
 
 .col-lg-4 a:hover td{
   background-color: #eae9e9;
 }
 
+.sixth-content{
+  padding: 40px 0px;
+}
+.sixth-content .container .row>h3{
+  font-size: 27px;
+  padding-left: 12px;
+}
+
+.about-olive>p{
+  font-size: 16px;
+}
+
+
+.seventh-content{
+  background-color: #eae9e9;
+  padding: 20px 0px;
+}
+.material-icons{
+  background-color: #000;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 50px;
+  padding: 5px;
+}
+
+.icons{
+  margin-top: 20px;
+}
+
+.eighth-content{
+  padding: 20px 0px;
+  background-color: #263238;
+  color: #8C8989;
+  border-bottom: #92D3C6 1px solid;
+  border-top: #92D3C6 10px solid;
+}
+
+footer{
+  background-color: #263238;
+  padding: 10px;
+  color:#8C8989;
+  font-size: 11px;
+}

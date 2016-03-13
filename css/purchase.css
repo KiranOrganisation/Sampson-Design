@@ -1,0 +1,16 @@
+    .purchase{
+      background-color: #F6F6F6;
+      padding: 30px;
+      border-bottom: #d2d3d4 1px solid;
+      margin-top: 86px;
+    }
+    .purchase-course{
+      font-size: 20px;
+      padding-left: 0px;
+    }
+    .purchase-details{
+      padding: 20px 0px;
+    }
+    fieldset{
+      text-align: center;
+    }

@@ -1,16 +1,50 @@
-    .purchase{
-      background-color: #F6F6F6;
-      padding: 30px;
-      border-bottom: #d2d3d4 1px solid;
-      margin-top: 86px;
-    }
-    .purchase-course{
-      font-size: 20px;
-      padding-left: 0px;
-    }
-    .purchase-details{
-      padding: 20px 0px;
-    }
-    fieldset{
-      text-align: center;
-    }
+.wrapper{
+  padding: 0px 10px;
+}
+.purchase{
+  background-color: #F6F6F6;
+  padding: 30px;
+  border-bottom: #d2d3d4 1px solid;
+  margin-top: 86px;
+}
+    
+.purchase-course{
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.purchase-details{
+  padding: 20px 0px;
+}
+
+.form-control{
+  border-radius: 0px;
+}
+
+fieldset{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.details{
+  border:#bce8f1 1px solid;
+  text-align: left;
+}
+
+.header-details{
+  background-color: #bce8f1;
+  padding: 10px;
+}
+
+.body-details{
+  padding: 20px 10px;
+}
+
+.form-inline{
+  text-align: left;
+}
+
+.pay{
+  border-radius: 0px;
+  border-top: #462E2E 1px solid;
+}

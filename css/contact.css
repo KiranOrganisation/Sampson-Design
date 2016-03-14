@@ -1,0 +1,25 @@
+.info{
+  padding: 40px 0px;
+}
+
+.information>p{
+  font-size: 16px;
+}
+
+.information>h5{
+  font-size: 15px;
+}
+
+.information>h3{
+  padding-bottom: 15px;
+}
+
+.send-message{
+  border-radius: 0px;
+  border-top: #fff 1px solid;
+  background-color: #E4332D;
+}
+
+.form-control{
+	border-radius: 0px;
+}

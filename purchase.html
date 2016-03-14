@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>  
-  <title>OLive Learning</title>   
+  <title>Purchase a Course</title>   
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/purchase.css" rel="stylesheet">
     <link href="css/olivelearning.css" rel="stylesheet">
@@ -31,12 +31,12 @@
             </div>
             <div class="navbar-collapse collapse navbar-responsive-collapse">      
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="javascript:void(0)">Home</a></li>
-                <li><a href="javascript:void(0)">Info</a></li>
-                <li><a href="javascript:void(0)">Blog</a></li>
-                <li><a href="javascript:void(0)">FAQ</a></li>
-                <li><a href="javascript:void(0)">Buy Now</a></li>
-                <li><a href="javascript:void(0)">Contact Us</a></li>               
+                <li><a href="olivelearning.html">Home</a></li>
+                <li><a href="#">Info</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="contact.html">Contact Us</a></li>               
               </ul>
             </div>
           </div>
@@ -44,90 +44,202 @@
       </div>
     </div>
   </nav>
-
-  <div class="purchase">
-    <div class="container">
-      <div class="col-lg-6 purchase-course">
-        PURCHASE A COURSE
+  
+  <div class="wrapper">
+    <div class="purchase">
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-6 purchase-course">
+          PURCHASE A COURSE
+        </div>
+        <div style="text-align:right;"class="col-lg-6">
+          Home/Purchase a course      
+        </div>
+        </div>
       </div>
-      <div style="text-align:right;"class="col-lg-6">
-        Home/Purchase a course      
+    </div>
+
+    <form>
+      <div class="row row-centered">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="page-header">
+            <h2>Secure Payment Form</h2>
+          </div>
+          
+          <fieldset>
+            <legend style="text-align:left">Billing Details</legend>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">Company Name</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="companyName" name="companyName" placeholder="Company Name" class="companyName form-control" data-bv-field="companyName">                  
+                  </div>
+              </div>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">Quantity</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="quantity" name="quantity" placeholder="Quantity" class="quantity form-control" data-bv-field="quantity">
+                  </div>
+              </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Street</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="street" name="Street" placeholder="Street" class="street form-control" data-bv-field="street"> 
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">City</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="city" name="City" placeholder="City" class="city form-control" data-bv-field="city">      
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">State</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="state" name="state" placeholder="State" class="state form-control" data-bv-field="state">            
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Postal Code</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="postal code" name="postalcode" placeholder="Postal Code" class="postalcode form-control" data-bv-field="postalcode">                  
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Country</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="country" name="country" placeholder="Country" class="country form-control" data-bv-field="country">
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Email</label>
+                    <div class="col-sm-6">
+                      <input type="email" id="email" name="email" placeholder="Email" class="email form-control" data-bv-field="email">
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Telephone</label>
+                    <div class="col-sm-6">
+                      <input type="text" id="telephone" name="telephone" placeholder="Contact Number" class="telephone form-control" data-bv-field="telephone">                  
+                    </div>
+                </div>
+                <div class="form-group purchase-details">
+                  <label class="col-sm-4 control-label">Trainee Name(s)</label>
+                    <div class="col-sm-6">
+                      <textarea type="text" id="trainee" name="trainee" placeholder="eg. Steve Doe, James Carter" class="trainee form-control" data-bv-field="trainee"></textarea>                  
+                    </div>
+                </div>
+          </fieldset>
+
+          <fieldset>
+            <legend style="text-align:left">Total Costs</legend>
+              <div class="row">
+                <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+                  <div class="panel details">
+                    <div class="panel-header header-details ">
+                      Payment Details
+                    </div>
+                    <div class="panel-body body-details">
+                      You will be charged 22.00 £ after submit.
+                    </div>
+                  </div>
+                </div>
+              </div>            
+          </fieldset>
+
+          <fieldset>
+            <legend style="text-align:left">Card Details</legend>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">Card Holder's Name</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="cardholder" name="cardholder" placeholder="Card Holder Name" class="cardholder form-control" data-bv-field="cardholder">                  
+                  </div>
+              </div>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">Card Number</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="cardnumber" name="cardnumber" placeholder="Card Number" class="cardnumber form-control" data-bv-field="cardnumber">
+                  </div>
+              </div>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">Card Expiry Date</label>
+                  <div class="col-sm-6">
+                    <div class="form-inline">
+                      <select name="select2" class="card-expiry-month stripe-sensitive required form-control" data-bv-field="expMonth">
+                        <option value="01" selected="selected">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+                      <i class="form-control-feedback" data-bv-field="select2" style="display: none;"></i>
+                      <i class="form-control-feedback" data-bv-field="expMonth" style="display: none;"></i>
+                      <span> / </span>
+                      <select name="select2" class="card-expiry-year stripe-sensitive required form-control" data-bv-field="expYear">
+                        <option value="2016" selected="">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                      </select>
+                    </div>
+                  </div>
+              </div>
+              <div class="form-group purchase-details">
+                <label class="col-sm-4 control-label">CVV/CVV2</label>
+                  <div class="col-sm-6">
+                    <input type="text" id="cvv" name="cvv" placeholder="CVV" class="cvv form-control" data-bv-field="cvv">      
+                  </div>
+              </div>
+              <div class="form-group purchase-details">              
+                <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+                  <a href="#" class="btn btn-raised btn-success pay">PAY NOW</a>               
+                </div>
+              </div> 
+          </fieldset>          
+        </div>
+      </div>         
+    </form>
+  </div>
+
+  <div class="eighth-content">
+    <div class="container">
+      <div class="row">
+        <div style="padding:20px; color:#fff;" class="col-lg-4">
+          <h2>OLIVE LEARNING</h2>            
+        </div>
+        <div class="col-lg-4">
+          <h4>United Kingdom :<br><br>
+            27 Mara House, Queen Elizabeth Olympic Park, Stratford, E201GA, London Tel: +44 20 3579 7542</h4>
+        </div>
+        <div class="col-lg-4">
+          <h4>Ireland :<br><br>
+            Red Cow Business Park, Clondalkin, Dublin 22, Ireland Tel: +353 1 4111011</h4>
+        </div>
       </div>
     </div>
   </div>
+    
+  <footer>
+    <div class="container">
+      Copyright 2015 Olive Learning | All Rights Reserved
+    </div>
+  </footer>
 
-  <form>
-    <div class="row row-centered">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="page-header">
-          <h2>Secure Payment Form</h2>
-        </div>
-        
-        <fieldset>
-          <legend style="text-align:left">Billing Details</legend>
-            <div class="form-group purchase-details">
-              <label class="col-sm-4 control-label">Company Name</label>
-                <div class="col-sm-6">
-                  <input type="text" id="companyName" name="companyName" placeholder="Company Name" class="companyName form-control" data-bv-field="companyName">                  
-                </div>
-            </div>
-            <div class="form-group purchase-details">
-              <label class="col-sm-4 control-label">Quantity</label>
-                <div class="col-sm-6">
-                  <input type="text" id="companyName" name="companyName" placeholder="Quantity" class="companyName form-control" data-bv-field="companyName">
-                </div>
-            </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Street</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="companyName" name="Street" placeholder="Street" class="companyName form-control" data-bv-field="companyName"> 
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">City</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="companyName" name="City" placeholder="City" class="companyName form-control" data-bv-field="companyName">      
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">State</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="state" name="state" placeholder="State" class="companyName form-control" data-bv-field="companyName">            
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Postal Code</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="postal code" name="postalcode" placeholder="Postal Code" class="postalcode form-control" data-bv-field="companyName">                  
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Country</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="companyName" name="companyName" placeholder="Country" class="country form-control" data-bv-field="companyName">
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Email</label>
-                  <div class="col-sm-6">
-                    <input type="email" id="companyName" name="companyName" placeholder="Email" class="email form-control" data-bv-field="companyName">
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Telephone</label>
-                  <div class="col-sm-6">
-                    <input type="text" id="companyName" name="companyName" placeholder="Contact Number" class="telephone form-control" data-bv-field="companyName">                  
-                  </div>
-              </div>
-              <div class="form-group purchase-details">
-                <label class="col-sm-4 control-label">Trainee Name(s)</label>
-                  <div class="col-sm-6">
-                    <textarea type="text" id="companyName" name="companyName" placeholder="eg. Steve Doe, James Carter" class="companyName form-control" data-bv-field="companyName"></textarea>                  
-                  </div>
-              </div>
-            </fieldset>
-          </div>
-        </div>
-      </form>
-    </body>
-  </html>
+</body>
+
+</html>
+

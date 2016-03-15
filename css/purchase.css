@@ -1,16 +1,15 @@
 .wrapper{
   padding: 0px 10px;
 }
-.purchase{
+.top-bar{
   background-color: #F6F6F6;
   padding: 30px;
   border-bottom: #d2d3d4 1px solid;
   margin-top: 86px;
 }
     
-.purchase-course{
+.topic{
   font-size: 20px;
-  padding-left: 0px;
 }
 
 .purchase-details{
@@ -47,4 +46,13 @@ fieldset{
 .pay{
   border-radius: 0px;
   border-top: #462E2E 1px solid;
+}
+@media(max-width:1100px){
+ .purchase{
+  display: none;
+  visibility: hidden;
+}
+.topic{
+  text-align: center;
+}
 }
